@@ -1,0 +1,108 @@
+/*Color de fondo*/
+body {
+    background: url('http://cdn.wallpapersafari.com/13/6/Mpsg2b.jpg');
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 110%;
+}
+
+.login {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.titulo {
+    color: #fff;
+    text-align: center;
+    font-size: 300%;
+    max-width: 200%;
+}
+
+.titulo h1 {
+    text-shadow: 0px 5px 15px #000;
+}
+
+.login-form {
+    border: .5px solid #fff;
+    background: #c5c763;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+/*Titulos*/
+.login-form h3 {
+    text-align: left;
+    margin-left: 40px;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000;
+}
+
+.login-form {
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 10%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    max-width: 400px;
+    width: 80%;
+    line-height: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1em 2em;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+    padding-left: 10px;
+}
+
+.botonLogin {
+    height: 30px;
+    width: 100px;
+    background: #fcfbfb;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.login-form input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    background: #fcfbfb;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.titulo2 {
+    color: #f2f2f2;
+    margin-left: -70%;
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 0px 0px 10px #000;
+}
+
+* a {
+    color: #f2f2f2;
+}
+
+
+.sinAcceso {
+    margin: 20px 0px 20px -57%;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 40px;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000;
+    font-size: small;
+}
